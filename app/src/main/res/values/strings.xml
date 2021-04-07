@@ -2,7 +2,7 @@
     <string name="app_name">AppCooking</string>
     <string name="danh_s_ch_m_n_n">Danh Sách Món Ăn</string>
     <string name="g_i_cho_b_n">Gợi Ý Cho Bạn</string>
-    <string name="n_i_b_t">Nổi Bật</string>
+    <string name="n_i_b_t">Danh Mục Món Ăn</string>
     <string name="h_c_n_u_n">Học Nấu Ăn</string>
     <string name="t_m_ki_m">Tìm Kiếm</string>
 </resources>
