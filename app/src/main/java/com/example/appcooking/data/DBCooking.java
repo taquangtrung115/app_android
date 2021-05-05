@@ -40,7 +40,8 @@ public class DBCooking {
                 " MaDM INTEGER );";
         String sqlCategories = "CREATE TABLE IF NOT EXISTS tbtCategory (" +
                 " MaDM INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT," +
-                " Ten TEXT);";
+                " Ten TEXT," +
+                " AnhDM INTEGER );";
         db.execSQL(sqlFurniture);
         db.execSQL(sqlCategories);
         closeDB(db);
@@ -70,7 +71,7 @@ public class DBCooking {
     public ArrayList<Category> getALLCategories(){
         SQLiteDatabase db = openDB();
         ArrayList<Category> arr = new ArrayList<>();
-        String sql = "select * from tbtCategories";
+        String sql = "select * from tbtCategory";
         Cursor csr = db.rawQuery(sql, null);
         if (csr != null) {
             if (csr.moveToFirst()) {
@@ -131,8 +132,8 @@ public class DBCooking {
         SQLiteDatabase db = openDB();
         for(Category ca : arrCa) {
             ContentValues cv = new ContentValues();
-            cv.put("Name", ca.getTenDM());
-            cv.put("Image", ca.getHinAnhDM());
+            cv.put("Ten", ca.getTenDM());
+            cv.put("AnhDM", ca.getHinAnhDM());
             db.insert("tbtCategory", null, cv);
         }
         closeDB(db);
@@ -143,10 +144,11 @@ public class DBCooking {
         Random random = new Random();
         for(Food fu : arrFood) {
             ContentValues cv = new ContentValues();
-            cv.put("Name", fu.getTenMA());
-            cv.put("Image", fu.getHinhAnh());
-            cv.put("Description", fu.getCachLam());
-            cv.put("CategoriesID",random.nextInt(4) + 1 );
+
+            cv.put("Ten", fu.getTenMA());
+            cv.put("Anh", fu.getHinhAnh());
+            cv.put("CachLam", fu.getCachLam());
+            cv.put("MaDM",random.nextInt(4) + 1 );
             db.insert("tblFood", null, cv);
         }
         closeDB(db);

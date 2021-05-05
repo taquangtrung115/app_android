@@ -51,4 +51,14 @@ public class Input {
         return tmp;
 
     }
+    public static ArrayList<Food> foodHistory = new ArrayList<>();
+    public  void addFoodHistory(Food food){
+        if (foodHistory.indexOf(food)>0){
+            foodHistory.add(0,food);
+        }
+    }
+
+    public static ArrayList<Food> getFoodHistory() {
+        return foodHistory;
+    }
 }

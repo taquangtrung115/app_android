@@ -8,6 +8,8 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.fragment.app.FragmentActivity;
+
 import com.example.appcooking.Model.Food;
 import com.example.appcooking.R;
 
@@ -25,6 +27,14 @@ public class FoodAdapter extends BaseAdapter {
         this.setLayout(layout);
         this.setFoodList(foodList);
         this.setFoodArrayList(foodArrayList);
+    }
+
+    public FoodAdapter(Context context, int layout, List<Food> furnitureList) {
+        this.setContext(context);
+        this.layout = layout;
+        this.foodList = furnitureList;
+
+
     }
 
     @Override
@@ -86,5 +96,13 @@ public class FoodAdapter extends BaseAdapter {
 
     public void setFoodArrayList(ArrayList<Food> foodArrayList) {
         this.foodArrayList = foodArrayList;
+    }
+
+    public void clear() {
+        this.clear();
+    }
+
+    public void addAll(ArrayList<Food> tmp) {
+        this.addAll(tmp);
     }
 }

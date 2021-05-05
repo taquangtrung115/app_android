@@ -47,4 +47,6 @@
     <string name="cach_lam18">string</string>
     <string name="cach_lam19">string</string>
     <string name="cach_lam20">string</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
