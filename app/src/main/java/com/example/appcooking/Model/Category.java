@@ -1,4 +1,4 @@
-package com.example.appcooking;
+package com.example.appcooking.Model;
 
 import java.util.ArrayList;
 

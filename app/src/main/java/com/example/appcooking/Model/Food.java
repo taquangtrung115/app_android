@@ -1,6 +1,4 @@
-package com.example.appcooking;
-
-import androidx.cardview.widget.CardView;
+package com.example.appcooking.Model;
 
 public class Food {
     private int maMA;

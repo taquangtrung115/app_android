@@ -5,8 +5,8 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.appcooking.Category;
-import com.example.appcooking.Food;
+import com.example.appcooking.Model.Category;
+import com.example.appcooking.Model.Food;
 
 import java.util.ArrayList;
 import java.util.Random;

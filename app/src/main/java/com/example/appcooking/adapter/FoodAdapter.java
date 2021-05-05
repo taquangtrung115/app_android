@@ -8,7 +8,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.appcooking.Food;
+import com.example.appcooking.Model.Food;
 import com.example.appcooking.R;
 
 import java.util.ArrayList;

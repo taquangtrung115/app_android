@@ -2,8 +2,8 @@ package com.example.appcooking.data;
 
 import android.content.Context;
 
-import com.example.appcooking.Category;
-import com.example.appcooking.Food;
+import com.example.appcooking.Model.Category;
+import com.example.appcooking.Model.Food;
 import com.example.appcooking.R;
 
 import java.util.ArrayList;
