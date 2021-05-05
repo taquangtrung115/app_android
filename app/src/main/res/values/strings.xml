@@ -5,4 +5,46 @@
     <string name="n_i_b_t">Danh Mục Món Ăn</string>
     <string name="h_c_n_u_n">Học Nấu Ăn</string>
     <string name="t_m_ki_m">Tìm Kiếm</string>
+    <!--    Tên món ăn-->
+    <string name="name1">string</string>
+    <string name="name2">string</string>
+    <string name="name3">string</string>
+    <string name="name4">string</string>
+    <string name="name5">string</string>
+    <string name="name6">string</string>
+    <string name="name7">string</string>
+    <string name="name8">string</string>
+    <string name="name9">string</string>
+    <string name="name10">string</string>
+    <string name="name11">string</string>
+    <string name="name12">string</string>
+    <string name="name13">string</string>
+    <string name="name14">string</string>
+    <string name="name15">string</string>
+    <string name="name16">string</string>
+    <string name="name17">string</string>
+    <string name="name18">string</string>
+    <string name="name19">string</string>
+    <string name="name20">string</string>
+    <!--    Cách Làm-->
+    <string name="cach_lam1">string</string>
+    <string name="cach_lam2">string</string>
+    <string name="cach_lam3">string</string>
+    <string name="cach_lam4">string</string>
+    <string name="cach_lam5">string</string>
+    <string name="cach_lam6">string</string>
+    <string name="cach_lam7">string</string>
+    <string name="cach_lam8">string</string>
+    <string name="cach_lam9">string</string>
+    <string name="cach_lam10">string</string>
+    <string name="cach_lam11">string</string>
+    <string name="cach_lam12">string</string>
+    <string name="cach_lam13">string</string>
+    <string name="cach_lam14">string</string>
+    <string name="cach_lam15">string</string>
+    <string name="cach_lam16">string</string>
+    <string name="cach_lam17">string</string>
+    <string name="cach_lam18">string</string>
+    <string name="cach_lam19">string</string>
+    <string name="cach_lam20">string</string>
 </resources>
