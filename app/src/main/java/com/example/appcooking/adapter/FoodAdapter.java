@@ -56,12 +56,12 @@ public class FoodAdapter extends BaseAdapter {
     public View getView(int position, View view, ViewGroup viewGroup) {
         view= LayoutInflater.from(getContext()).inflate(R.layout.row_food_list,viewGroup,false);
         TextView txtTen = (TextView) view.findViewById(R.id.txtNameFood);
-        TextView txtMoTa = view.findViewById(R.id.txtDesFood);
+
         ImageView img = view.findViewById(R.id.imgFood);
 
         Food food = foodList.get(position);
         txtTen.setText(food.getTenMA());
-        txtMoTa.setText(food.getCachLam());
+        //txtMoTa.setText(food.getCachLam());
         img.setImageResource(food.getHinhAnh());
         return view;
     }

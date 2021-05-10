@@ -23,7 +23,6 @@ public class DBCooking {
     }
     private SQLiteDatabase openDB(){
         return  context.openOrCreateDatabase(dbName,context.MODE_PRIVATE,null);
-
     }
 
     private void closeDB(SQLiteDatabase db)
@@ -144,7 +143,6 @@ public class DBCooking {
         Random random = new Random();
         for(Food fu : arrFood) {
             ContentValues cv = new ContentValues();
-
             cv.put("Ten", fu.getTenMA());
             cv.put("Anh", fu.getHinhAnh());
             cv.put("CachLam", fu.getCachLam());

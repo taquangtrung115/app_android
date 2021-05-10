@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -33,7 +34,7 @@ public class DentailActivity extends AppCompatActivity {
         itemName.setText(intent.getStringExtra("name"));
         itemDes.setText(intent.getStringExtra("description"));
         imageView.setImageResource(intent.getIntExtra("image",0));
-
+        itemDes.setMovementMethod(new ScrollingMovementMethod());
 
 
     }

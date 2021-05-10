@@ -6,8 +6,8 @@
     <string name="h_c_n_u_n">Học Nấu Ăn</string>
     <string name="t_m_ki_m">Tìm Kiếm</string>
     <!--    Tên món ăn-->
-    <string name="name1">string</string>
-    <string name="name2">string</string>
+    <string name="name1">Bún Bò Huế</string>
+    <string name="name2">string2</string>
     <string name="name3">string</string>
     <string name="name4">string</string>
     <string name="name5">string</string>
@@ -27,8 +27,48 @@
     <string name="name19">string</string>
     <string name="name20">string</string>
     <!--    Cách Làm-->
-    <string name="cach_lam1">string</string>
-    <string name="cach_lam2">string</string>
+    <string name="cach_lam1">
+"       Học ngay cách nấu bún bò huế ngon và sa tế ăn kèm của người huế\n
+        Bún bò Huế là một trong những món ăn đặc trưng của thành phố Huế, học ngay cách nấu bún bò Huế ngon và sa tế ăn kèm đúng\n
+        Cách nấu\n
+        Bún bò Huế không những là đặc sản của xứ Huế mộng mơ mà còn của nền ẩm thực Việt Nam. Sự kết hợp tuyệt vời giữa nước dùng đậm đà hoà cùng chút cay nồng của sa tế và mùi vị đặc biệt của mắm ruốc tạo nên hương vị ngon khó cưỡng cho thực khách ngay lần đầu thưởng thức.\n
+        Tuy nguyên liệu để nấu bún bò chuẩn vị khá nhiều nhưng cách chế biến lại không hề cầu kỳ, phức tạp. Bạn chỉ cần tỉ mỉ lựa chọn những nguyên liệu tươi ngon và đầy đủ gia vị cần thiết là đã có thể bắt tay vào thực hiện ngay món ăn này rồi.\n
+        Nguyên liệu cần có nấu bún bò Huế\n
+            •	Bắp bò: 600 gr\n
+            •	Nạm bò: 600 gr\n
+            •	Gân bò: 400 gr\n
+            •	Giò heo (chọn giò trước): 1 cái khoảng 800 gr\n
+            •	Xương ông: 1 kg\n
+            •	Mắm ruốc Huế: khoảng 3 muỗng canh\n
+            •	Sả: 6 cây\n
+            •	Gừng: 50 gr\n
+            •	Hành tím, tỏi\n
+            •	Bún tươi cọng to\n
+            •	Rau sống (bắp chuối, giá sống, rau thơm, rau răm, hành lá, củ hành tây)\n
+            •	Chả Huế (tùy thích)\n
+            •	Ớt, sa tế, tiêu, muối, nước mắm, dầu ăn, dấm trắng\n
+            •	Huyết heo (nếu không thích ăn huyết bạn có thể bỏ qua)\n
+        Bước 1: Sơ chế nguyên liệu\n
+            •	Thịt và xương bò thì nên rửa qua với nước muối rồi đến nước dấm, sau đó xả thật sạch dưới nước để khử hoàn toàn mùi hôi của thịt bò, để ráo. Phần bắp bò, bạn cuộn lại rồi dùng sợi chỉ buộc lại.\n
+            •	Giò heo: cạo lông, rửa sạch, cho vào nồi nước, ninh đến khi da heo trong là được, tắt bếp, vớt ra. Bạn có thể cho vào một tí muối để luộc cùng.\n
+            •	Các loại rau: nhặt bỏ phần hư, rửa sạch, để ráo.\n
+            •	Ớt tươi: cắt nhỏ, cho vào nước mắm.\n
+            •	Hành lá: cắt lấy phần đầu hành trắng, sắt sợi nhỏ. Củ hành trắng sắt mỏng. Rau răm sắt vừa phải cỡ 2/3 ngón tay út. Sả và gừng thì đập dập, rửa sạch.\n
+            •	Huyết: nấu nồi nước sôi và cho phần huyết vào luộc cùng với ít muối, đường. Khi nào huyết đông, bạn dùng đũa đâm mà không thấy nước màu hồng chảy ra là được. Vớt ra, ngâm trong nước lạnh, rồi cắt thành miếng vừa ăn.\n
+            •	Pha phần mắm ruốc Huế với ½ chén nước, khuấy đều.\n
+        Bước 2: Ướp thịt\n
+            Bạn ướp tất cả các thịt theo công thức sau: 2 muỗng canh đường + 1 muỗng canh muối + ½ muỗng canh bột ngọt + 1 muỗng canh mắm ruốc đã pha + 2 muỗng canh hành tím băm + 2 muỗng canh tỏi băm + 2 muỗng canh sả băm.\n
+        Bước 3: Hầm thịt và xương\n
+            •	Bắc nồi lên bếp, cho 3 cây sả và ½ lượng gừng vào đáy nồi trước rồi mới cho xương và thịt giò heo vào, đổ vào lượng nước xâm xấp vừa ngập mặt thịt, đậy nấp, đun cho sôi. Khi thấy nồi sôi già thì hạ lửa nhỏ để liu riu thêm vài phút, tắt bếp. Vớt giò heo ra ngâm trong thau nước lạnh cho thịt săn chắc.\n
+            •	Với phần bắp bò, nạm bò và gân bò thì bạn cũng hầm tương tự như xương và giò heo với lượng sả và gừng còn lại.\n
+            •	Lưu ý: vì thịt bò và thịt heo có độ dai khác nhau nên vì vậy phải hầm 2 loại thịt này riêng.\n
+        Bước 4: Nấu nước dùng bún bò Huế miền nam\n
+            •	Cho 2 loại nước hầm ban nãy vào chung 1 nồi lớn và cho thêm lượng nước vào sao cho đủ khoảng 5 lít nước, đun cho sôi rồi nêm nếm gia vị theo tỉ lệ sau: 3 muỗng canh nước mắm + 2 muỗng canh muối + 2 muỗng canh đường + 2 muỗng café bột ngọt + chén mắm ruốt Huế đã pha loãng. Sau cùng bạn cho huyết heo, chả vào nồi nước. Đợi cho sôi là bạn đã nước dùng cho món bún bò của mình.\n
+            •	Nếu bạn muốn nước dùng của mình có màu đẹp hơn thì có thể thực hiện thêm bước sau: Cho 1,5 muỗng canh sả băm + 1 muỗng canh tỏi băm vào chảo dầu nóng phi cho thơm rồi thêm vào 2 – 3 muỗng canh màu điều, đảo nhanh đều tay thì tắt bếp. Cho phần này vào nồi nước dùng đang nấu.\n
+        Bước 5: Trình bày món ăn\n
+            Trụng bún qua nước sôi rồi cho vào bát, xếp thịt, gân, chả, giò, rắc ít rau ngò và chan nước dùng vào. Dọn kèm rau muống chẻ, bắp chuối bào, giá, rau thơm, chanh ớt, sa tế…\n"
+    </string>
+    <string name="cach_lam2">"abc\nxyz"</string>
     <string name="cach_lam3">string</string>
     <string name="cach_lam4">string</string>
     <string name="cach_lam5">string</string>

@@ -85,7 +85,7 @@ public class CategoryAdapter extends BaseAdapter {
         }
         Category category = getCategoryList().get(i);
 
-        //viewHolder.imageView.setImageResource(category.getHinAnhDM());
+        viewHolder.imageView.setImageResource(category.getHinAnhDM());
         viewHolder.txtName.setText(category.getTenDM());
         return view;
     }
