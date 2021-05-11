@@ -6,8 +6,8 @@ public class Category {
     private int maDM;
     private ArrayList<Food> foodArrayList;
 
-    public Category(int hinAnhDM, String tenDM) {
-        this.maDM = maDM;
+    public Category(String tenDM, int hinAnhDM) {
+
         this.hinAnhDM = hinAnhDM;
         this.tenDM = tenDM;
     }

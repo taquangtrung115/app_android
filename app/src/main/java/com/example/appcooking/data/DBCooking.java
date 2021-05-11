@@ -78,7 +78,7 @@ public class DBCooking {
                     int id = csr.getInt(0);
                     String name = csr.getString(1);
                     String image = csr.getString(2);
-                    arr.add(new Category(id,name));
+                    arr.add(new Category(name,Integer.valueOf(image)));
                 } while (csr.moveToNext());
             }
         }
@@ -131,8 +131,8 @@ public class DBCooking {
         SQLiteDatabase db = openDB();
         for(Category ca : arrCa) {
             ContentValues cv = new ContentValues();
-            cv.put("Ten", ca.getTenDM());
             cv.put("AnhDM", ca.getHinAnhDM());
+            cv.put("Ten", ca.getTenDM());
             db.insert("tbtCategory", null, cv);
         }
         closeDB(db);

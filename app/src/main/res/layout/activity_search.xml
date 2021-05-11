@@ -27,14 +27,14 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="185dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         app:cardUseCompatPadding="true">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="185dp"
             android:orientation="vertical"
 
             >
@@ -51,11 +51,14 @@
             <me.gujun.android.taggroup.TagGroup
                 android:id="@+id/taggroup"
                 style="@style/TagGroup"
+                android:layout_height="154dp"
                 android:padding="8dp"
                 app:atg_borderColor="#2196F3"
-                app:atg_textColor="#2196F3" />
+                app:atg_textColor="#2196F3">
 
+            </me.gujun.android.taggroup.TagGroup>
         </LinearLayout>
+
     </androidx.cardview.widget.CardView>
 
     <ListView
@@ -64,4 +67,5 @@
         android:layout_height="535dp"
         android:background="#FAF6F6"
         android:visibility="gone" />
+
 </LinearLayout>

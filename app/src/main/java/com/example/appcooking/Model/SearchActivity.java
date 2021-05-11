@@ -39,7 +39,8 @@ public class SearchActivity extends AppCompatActivity {
         arrayList = new ArrayList<>();
 
         listView = findViewById(R.id.listViewSearch);
-        foodAdapter = new FoodAdapter(SearchActivity.this, R.layout.row_food_list,arrayList);
+
+        foodAdapter = new FoodAdapter(SearchActivity.this,arrayList);
         listView.setAdapter(foodAdapter);
 
         searchView = findViewById(R.id.search_view);
@@ -64,7 +65,7 @@ public class SearchActivity extends AppCompatActivity {
             }
         });
         tagGroup = findViewById(R.id.taggroup);
-        tagGroup.setTags(new String[]{"BedRoom", "LivingRoom", "Meeting", "Accessories"});
+        tagGroup.setTags(new String[]{"Bún", "Xào", "Chiên", "Ăn Vặt","Canh","Cháo","Chè","Gỏi","Hấp","Kho","Lẩu","Mứt","Nướng","Xôi"});
         tagGroup.setOnTagClickListener(new TagGroup.OnTagClickListener() {
             @Override
             public void onTagClick(String tag) {
@@ -93,7 +94,7 @@ public class SearchActivity extends AppCompatActivity {
                 tmp.add(furniture);
             }
         }
-        Toast.makeText(this, tmp.size()+" đã add được", Toast.LENGTH_SHORT).show();
+
         if (tmp.size()>0){
             foodAdapter.clear();
             foodAdapter.addAll(tmp);

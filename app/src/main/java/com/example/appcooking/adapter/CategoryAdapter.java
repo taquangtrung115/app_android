@@ -11,53 +11,23 @@ import android.widget.TextView;
 import com.example.appcooking.Model.Category;
 import com.example.appcooking.R;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class CategoryAdapter extends BaseAdapter {
     private Context context;
     private int layout;
+    private ArrayList<Category> categoriesArrayList;
 
-    public CategoryAdapter(Context context, int layout, List<Category> categoryList) {
+    public CategoryAdapter(Context context, int layout, ArrayList<Category> categoriesArrayList) {
         this.context = context;
         this.layout = layout;
-        this.categoryList = categoryList;
+        this.categoriesArrayList = categoriesArrayList;
     }
 
-    private List<Category> categoryList;
-
-    public Context getContext() {
-        return context;
-    }
-
-    public void setContext(Context context) {
-        this.context = context;
-    }
-
-    public int getLayout() {
-        return layout;
-    }
-
-    public void setLayout(int layout) {
-        this.layout = layout;
-    }
-
-    public List<Category> getCategoryList() {
-        return categoryList;
-    }
-
-    public void setCategoryList(List<Category> categoryList) {
-        this.categoryList = categoryList;
-    }
-
-    public class ViewHolder{
-        ImageView imageView;
-
-        TextView txtName;
-
-    }
     @Override
     public int getCount() {
-        return categoryList.size();
+        return categoriesArrayList.size();
     }
 
     @Override
@@ -71,22 +41,16 @@ public class CategoryAdapter extends BaseAdapter {
     }
 
     @Override
-    public View getView(int i, View view, ViewGroup viewGroup) {
-        ViewHolder viewHolder;
-        if (view == null){
-            viewHolder = new ViewHolder();
-            LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            view = inflater.inflate(getLayout(),null);
-            viewHolder.imageView = (ImageView) view.findViewById(R.id.imgCate);
-            viewHolder.txtName = view.findViewById(R.id.txtNameCate);
-            view.setTag(viewHolder);
-        }else {
-            viewHolder = (ViewHolder) view.getTag();
-        }
-        Category category = getCategoryList().get(i);
-
-        viewHolder.imageView.setImageResource(category.getHinAnhDM());
-        viewHolder.txtName.setText(category.getTenDM());
-        return view;
+    public View getView(int position, View convertView, ViewGroup parent) {
+        LayoutInflater inflater= (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        convertView=inflater.inflate(layout,null);
+        //ánh xạ view
+        TextView txt_categories=convertView.findViewById(R.id.txtNameCate);
+        ImageView imageView=convertView.findViewById(R.id.imgCate);
+        //gán dữ liệu//
+        Category categories=categoriesArrayList.get(position);
+        txt_categories.setText(categories.getTenDM());
+        imageView.setImageResource(categories.getHinAnhDM());
+        return convertView;
     }
 }

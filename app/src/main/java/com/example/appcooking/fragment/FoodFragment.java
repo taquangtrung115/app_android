@@ -90,21 +90,17 @@ public class FoodFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         listView = view.findViewById(R.id.lstViewFood);
-
-
-
-
-        dbCooking.createTable();
-        dbCooking.insertFood();
+        //dbCooking.createTable();
+        //dbCooking.insertFood();
         foodArrayList = dbCooking.getALLFood();
-        foodAdapter = new FoodAdapter(getActivity(),R.layout.row_food_list,foodArrayList);
+        foodAdapter = new FoodAdapter(getContext(),foodArrayList);
 
         listView.setAdapter(foodAdapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Input.foodHistory.add(foodArrayList.get(position));
-                Toast.makeText(getContext(), position + "", Toast.LENGTH_SHORT).show();
+
 
                 Intent i = new Intent(getActivity(), DentailActivity.class);
                 i.putExtra("name", foodArrayList.get(position).getTenMA().toString());

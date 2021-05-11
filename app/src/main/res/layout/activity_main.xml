@@ -23,7 +23,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Teen"
+                android:hint="Tên món ăn"
                 android:padding="8dp"
                 android:layout_margin="16dp"
                 android:cursorVisible="false"

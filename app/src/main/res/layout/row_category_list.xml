@@ -19,12 +19,12 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="65dp"
-        android:layout_marginLeft="65dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
         android:layout_marginTop="18dp"
-        android:layout_marginEnd="53dp"
-        android:layout_marginRight="53dp"
-         />
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/txtNameCate"
@@ -34,7 +34,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="43dp"
         android:gravity="center"
-        android:text="TextView Text Above ImageView"
+        android:text="@string/textview_text_above_imageview"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#EA0E0E"
         android:textSize="36sp"
