@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -14,7 +16,7 @@ public class DentailActivity extends AppCompatActivity {
 
     ImageView imageView;
     TextView itemName, itemDes;
-
+    Button btnXem;
 
 
 
@@ -35,6 +37,15 @@ public class DentailActivity extends AppCompatActivity {
         itemDes.setText(intent.getStringExtra("description"));
         imageView.setImageResource(intent.getIntExtra("image",0));
         itemDes.setMovementMethod(new ScrollingMovementMethod());
+
+//        btnXem= findViewById(R.id.btnXem);
+//        btnXem.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(DentailActivity.this, VideoActivity.class);
+//                startActivity(intent);
+//            }
+//        });
 
 
     }

@@ -48,4 +48,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtDentail_Name"
         app:layout_constraintVertical_bias="0.0" />
+
 </LinearLayout>

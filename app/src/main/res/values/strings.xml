@@ -6,71 +6,71 @@
     <string name="h_c_n_u_n">Học Nấu Ăn</string>
     <string name="t_m_ki_m">Tìm Kiếm</string>
     <!--    Tên món ăn-->
-<!--    Bún-->
+    <!--    Bún-->
     <string name="name1">Bún Bò Huế</string>
     <string name="name2">Bún Riêu Cua</string>
     <string name="name3">Bún Thái Hải Sản</string>
     <string name="name4">Mì Quảng</string>
     <string name="name5">Bún Măng Vịt</string>
     <string name="name6">Bún Chả Hà Nội</string>
-<!--    Hầm-->
+    <!--    Hầm-->
     <string name="name7">Bò Hầm Đậu Ngự</string>
     <string name="name8">Vịt Nấu Chao</string>
     <string name="name9">Canh Bong Bóng Thập Cẩm</string>
     <string name="name10">Canh Rong Biển</string>
     <string name="name11">Canh Thịt Bò</string>
-<!--    Cháo-->
+    <!--    Cháo-->
     <string name="name12">4 Cách Nấu Cháo Quinoa</string>
     <string name="name13">Cháo Bồ Câu</string>
     <string name="name14">Cháo Ếch Singapore</string>
     <string name="name15">Cháo Gà</string>
     <string name="name16">Cháo Lươn</string>
     <string name="name17">Cháo Tôm</string>
-<!--    Chè-->
+    <!--    Chè-->
     <string name="name18">Chè Bưởi</string>
     <string name="name19">Chè Chuối</string>
     <string name="name20">Chè Hạt Đác</string>
     <string name="name21">Chè Hạt Kê</string>
     <string name="name22">Chè Khúc Bạch</string>
-<!--    Chiên-->
+    <!--    Chiên-->
     <string name="name23">Bò Lúc Lắc</string>
     <string name="name24">Cánh Gà Chiên Nước Mắm</string>
     <string name="name25">Cơm Chiên Hải Sản</string>
     <string name="name26">Cơm Chiên Trứng</string>
     <string name="name27">Cánh Gà Chiên Giòn</string>
     <string name="name28">Mực Chiên Nước Mắm</string>
-<!--    Gỏi-->
+    <!--    Gỏi-->
     <string name="name29">Pha Mắm Nêm</string>
     <string name="name30">Cách Lam Kimchi</string>
     <string name="name31">Gỏi Bò Bóp</string>
     <string name="name32">Gỏi Mực Thái Lan</string>
     <string name="name33">Gỏi Sừa Xoài Xanh</string>
-<!--    Hấp-->
+    <!--    Hấp-->
     <string name="name34">Cá Chép Hấp Bia</string>
     <string name="name35">Cách Làm Cá Lóc Hấp</string>
     <string name="name36">Cách Làm Cá Mè Hấp</string>
     <string name="name37">Cách Làm Gà Hấp Muối</string>
     <string name="name38">Cách Làm Tôm Hùm Hấp</string>
-<!--    Kho-->
+    <!--    Kho-->
     <string name="name39">3 Cách Kho Cá Nục</string>
     <string name="name40">Cách Làm Bò Kho</string>
     <string name="name41">Cách Làm Cá Lóc Kho Nghệ</string>
     <string name="name42">Cách Làm Cá Kho Tộ</string>
     <string name="name43">Cách Làm Thịt Nạc, Ba Rọi Kho Tiêu</string>
     <string name="name44">Cách Làm Thịt Gà Kho Gừng</string>
-<!--    Lẩu-->
+    <!--    Lẩu-->
     <string name="name45">Cách Lẩu Gà Lá Giang</string>
     <string name="name46">Cách Lẩu Dê Hầm Thuốc Bắc</string>
     <string name="name47">Cách Lẩu Gà Lá É</string>
     <string name="name48">Cách Lẩu Thái</string>
-<!--    Mứt-->
+    <!--    Mứt-->
     <string name="name49">3 Cách Mứt Khoai Tây</string>
     <string name="name50">Cách Mứt Táo</string>
     <string name="name51">Cách Mứt Bí Đao</string>
     <string name="name52">Cách Mứt Khoai Lang</string>
     <string name="name53">Cách Mứt Vỏ Bưởi</string>
     <string name="name54">Cách Mứt Chuối</string>
-<!--    Nướng-->
+    <!--    Nướng-->
     <string name="name55">Cách Bò Bít Tết</string>
     <string name="name56">Cách Cá Nướng Giấy Bạc</string>
     <string name="name57">Cách Mực Nướng</string>
@@ -83,13 +83,13 @@
     <string name="name63">Cách Xào Bạch Tuộc</string>
     <string name="name64">Cách Xào Cà Tím</string>
     <string name="name65">Cách Xào Mực</string>
-<!--    Xôi-->
+    <!--    Xôi-->
     <string name="name66">Cách Làm Gà</string>
     <string name="name67">Cách Làm Xôi Chiên Phồng</string>
     <string name="name68">Cách Làm Xôi Khoai Môn</string>
     <string name="name69">Cách Làm Xôi Trà Xanh</string>
     <string name="name70">Cách Làm Xôi Cá Rô Đồng</string>
-<!--    Ăn Vặt-->
+    <!--    Ăn Vặt-->
     <string name="name71">Cách Làm Bánh Đúc</string>
     <string name="name72">Cách Làm Gỏi Cuốn</string>
     <string name="name73">Cách Làm Khô Gà Lá Chanh</string>
@@ -3253,4 +3253,5 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="textview_text_above_imageview">TextView Text Above ImageView</string>
     <string name="todo">TODO</string>
+    <string name="y_u_th_ch">Yêu Thích</string>
 </resources>

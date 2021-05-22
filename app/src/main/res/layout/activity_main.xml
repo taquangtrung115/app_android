@@ -7,6 +7,8 @@
     android:background="@drawable/back6"
     tools:context=".Model.MainActivity">
 
+
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

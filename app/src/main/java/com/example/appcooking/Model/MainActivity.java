@@ -15,6 +15,7 @@ import android.widget.EditText;
 
 import com.example.appcooking.R;
 import com.example.appcooking.fragment.CategoryFragment;
+import com.example.appcooking.fragment.FavoriteFragment;
 import com.example.appcooking.fragment.FoodFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -52,12 +53,21 @@ public class MainActivity extends AppCompatActivity {
                     fragment = new FoodFragment();
                     loadFragment(fragment);
                     return true;
+                case R.id.mnudanhsachvideo:
+                    //getSupportActionBar().setTitle("Danh Sach");
+                    fragment = new VideoFragment();
+                    loadFragment(fragment);
+                    return true;
                 case R.id.mnudanhmuc:
                     //getSupportActionBar().setTitle("Danh Muc");
                     fragment = new CategoryFragment();
                     loadFragment(fragment);
                     return true;
-
+                case R.id.mnuyeuthich:
+                    //getSupportActionBar().setTitle("Danh Muc");
+                    fragment = new FavoriteFragment();
+                    loadFragment(fragment);
+                    return true;
                 default:
                     throw new IllegalStateException("Unexpected value: " + item.getItemId());
             }
