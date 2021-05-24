@@ -90,8 +90,8 @@ public class FoodFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         listView = view.findViewById(R.id.lstViewFood);
-        //dbCooking.createTable();
-        //dbCooking.insertFood();
+        dbCooking.createTable();
+        dbCooking.insertFood();
         foodArrayList = dbCooking.getALLFood();
         foodAdapter = new FoodAdapter(getContext(),foodArrayList);
 

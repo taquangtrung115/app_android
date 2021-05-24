@@ -8,7 +8,6 @@ import androidx.fragment.app.FragmentTransaction;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
@@ -17,6 +16,7 @@ import com.example.appcooking.R;
 import com.example.appcooking.fragment.CategoryFragment;
 import com.example.appcooking.fragment.FavoriteFragment;
 import com.example.appcooking.fragment.FoodFragment;
+import com.example.appcooking.fragment.VideoFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {

@@ -90,8 +90,8 @@ public class CategoryFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         gridView = view.findViewById(R.id.gripViewCate);
 
-        //dbCooking.createTable();
-        //dbCooking.insertCategories();
+        dbCooking.createTable();
+        dbCooking.insertCategories();
         categoryArrayList = dbCooking.getALLCategories();
         categoryAdapter = new CategoryAdapter(getContext(),R.layout.row_category_list,categoryArrayList);
         gridView.setAdapter(categoryAdapter);
