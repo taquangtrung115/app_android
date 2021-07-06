@@ -7,7 +7,7 @@
         android:icon="@drawable/ic_baseline_list_24"
     android:id="@+id/mnudanhsach"
         />
-    <item android:title="Danh Sách Video"
+    <item android:title="Video"
         android:icon="@drawable/ic_baseline_ondemand_video_24"
         android:id="@+id/mnudanhsachvideo"
         />
