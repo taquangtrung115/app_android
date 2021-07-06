@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion "27.0.3"
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "com.example.appcooking"
-        minSdkVersion 19
-        targetSdkVersion 27
+        minSdkVersion 16
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
 
@@ -42,8 +42,9 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     implementation 'me.gujun.android.taggroup:library:1.5'
+    //noinspection GradleCompatible
     implementation 'com.android.support:appcompat-v7:27.1.1'
-    compile files('libs/YouTubeAndroidPlayerApi-1.2.2.jar')
+    implementation files('libs/YouTubeAndroidPlayerApi-1.2.2.jar')
     //noinspection GradleCompatible
     implementation 'com.android.support:recyclerview-v7:25.1.1'
     implementation 'com.github.bumptech.glide:glide:3.7.0'
