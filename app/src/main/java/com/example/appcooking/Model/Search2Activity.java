@@ -19,6 +19,7 @@ import com.example.appcooking.data.Input;
 import java.util.ArrayList;
 
 import me.gujun.android.taggroup.TagGroup;
+import me.gujun.android.taggroup.TagGroup.OnTagClickListener;
 
 public class Search2Activity extends AppCompatActivity {
 
