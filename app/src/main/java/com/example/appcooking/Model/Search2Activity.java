@@ -10,7 +10,6 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.SearchView;
-import android.widget.Toast;
 
 import com.example.appcooking.R;
 import com.example.appcooking.adapter.FoodAdapter;
@@ -21,7 +20,7 @@ import java.util.ArrayList;
 
 import me.gujun.android.taggroup.TagGroup;
 
-public class SearchActivity extends AppCompatActivity {
+public class Search2Activity extends AppCompatActivity {
 
     SearchView searchView;
     ArrayList<Food> arrayList;
@@ -33,14 +32,14 @@ public class SearchActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_search);
-        input = new Input(SearchActivity.this);
+        setContentView(R.layout.activity_search2);
+        input = new Input(Search2Activity.this);
 
         arrayList = new ArrayList<>();
 
         listView = findViewById(R.id.listViewSearch);
 
-        foodAdapter = new FoodAdapter(SearchActivity.this,arrayList);
+        foodAdapter = new FoodAdapter(Search2Activity.this,arrayList);
         listView.setAdapter(foodAdapter);
 
         searchView = findViewById(R.id.search_view);
@@ -78,7 +77,7 @@ public class SearchActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent i = new Intent(SearchActivity.this, DentailActivity.class);
+                Intent i = new Intent(Search2Activity.this, DentailActivity.class);
                 i.putExtra("name", arrayList.get(position).getTenMA().toString());
                 i.putExtra("description",arrayList.get(position).getCachLam().toString());
                 i.putExtra("image", arrayList.get(position).getHinhAnh());

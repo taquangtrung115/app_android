@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DA3434"
-    tools:context=".Model.SearchActivity"
     android:orientation="vertical">
+    tools:context=".Model.Search2Activity">
+
 
     <RelativeLayout
         android:id="@+id/relative"
@@ -54,9 +54,11 @@
                 android:layout_height="154dp"
                 android:padding="8dp"
                 app:atg_borderColor="#2196F3"
-                app:atg_textColor="#2196F3">
+                app:atg_textColor="#2196F3"
+                tools:ignore="MissingClass">
 
             </me.gujun.android.taggroup.TagGroup>
+
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
@@ -67,5 +69,4 @@
         android:layout_height="535dp"
         android:background="#FAF6F6"
         android:visibility="gone" />
-
 </LinearLayout>
